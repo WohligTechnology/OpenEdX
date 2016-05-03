@@ -1,0 +1,149 @@
+2016-05-02 08:03:37,455 INFO 23101 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2016-05-02 08:03:47,928 WARNING 23101 [celery.redirected] log.py:282 - /opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+2016-05-02 08:03:48,119 INFO 23101 [celery.worker.consumer] consumer.py:479 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2016-05-02 08:03:48,161 INFO 23101 [celery.worker.consumer] consumer.py:567 - mingle: searching for neighbors
+2016-05-02 08:03:49,183 INFO 23101 [celery.worker.consumer] consumer.py:585 - mingle: all alone
+2016-05-02 08:03:49,245 WARNING 23101 [celery.redirected] log.py:282 - celery@edx.cms.core.default.edx-1-vm ready.
+2016-05-03 01:44:33,381 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[e4a261ce-816f-4ccc-ab26-741ca8d58554]
+2016-05-03 01:44:34,624 ERROR 23523 [util.models] models.py:40 - String decompression failed. There may be corrupted data in the database: Incorrect padding
+2016-05-03 01:44:34,635 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[e4a261ce-816f-4ccc-ab26-741ca8d58554] succeeded in 1.24966893501s: None
+2016-05-03 01:44:34,696 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[8cc482e7-e6d4-445b-9312-f9b25938aa12]
+2016-05-03 01:44:35,421 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[8cc482e7-e6d4-445b-9312-f9b25938aa12] succeeded in 0.721416843997s: None
+2016-05-03 01:44:40,598 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[6b8a8d7d-8d25-4e7f-92a6-2fe5cf332ae1]
+2016-05-03 01:44:41,268 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[6b8a8d7d-8d25-4e7f-92a6-2fe5cf332ae1] succeeded in 0.667582741007s: None
+2016-05-03 01:44:45,746 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[2ed4d4c1-b7f2-4add-a4df-01445d139e71]
+2016-05-03 01:44:46,379 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[2ed4d4c1-b7f2-4add-a4df-01445d139e71] succeeded in 0.630521910993s: None
+2016-05-03 01:44:55,568 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[0847a46a-0fa8-4dac-b321-59599d38c96c]
+2016-05-03 01:44:55,590 WARNING 23523 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/9d3895ba233f4ce39232da2f17bb817a, skipping
+2016-05-03 01:44:55,600 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[0847a46a-0fa8-4dac-b321-59599d38c96c] succeeded in 0.030324006002s: None
+2016-05-03 01:45:12,930 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[4c5d5b7d-8b5b-4697-a4c4-30a8bb328761]
+2016-05-03 01:45:12,965 WARNING 23524 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/9d3895ba233f4ce39232da2f17bb817a, skipping
+2016-05-03 01:45:12,980 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[4c5d5b7d-8b5b-4697-a4c4-30a8bb328761] succeeded in 0.0471755990002s: None
+2016-05-03 01:45:28,782 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[931079bc-2c25-4867-bdeb-dfae076f79cd]
+2016-05-03 01:45:28,809 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[931079bc-2c25-4867-bdeb-dfae076f79cd] succeeded in 0.0259337859898s: None
+2016-05-03 01:45:30,290 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[c37be7eb-ca08-4ed0-806a-ac28d17e970b]
+2016-05-03 01:45:30,313 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[c37be7eb-ca08-4ed0-806a-ac28d17e970b] succeeded in 0.0215526029933s: None
+2016-05-03 01:45:34,240 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[73df5114-2add-44fc-a85b-c1e87184a9ad]
+2016-05-03 01:45:34,271 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[73df5114-2add-44fc-a85b-c1e87184a9ad] succeeded in 0.0286683690065s: None
+2016-05-03 01:46:03,054 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[4cb00643-3466-4ed0-a345-fde8ae5a7e08]
+2016-05-03 01:46:03,081 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[4cb00643-3466-4ed0-a345-fde8ae5a7e08] succeeded in 0.025646146998s: None
+2016-05-03 01:57:11,997 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[e77f944a-badf-4017-81ba-8cff53e122fa]
+2016-05-03 01:57:12,026 WARNING 23521 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/45b27600eaee4e9489b9178d75226b62, skipping
+2016-05-03 01:57:12,042 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[e77f944a-badf-4017-81ba-8cff53e122fa] succeeded in 0.0425073889928s: None
+2016-05-03 01:57:12,950 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[dcfb9ea5-f330-4349-93f3-64c53f85a232]
+2016-05-03 01:57:12,968 WARNING 23520 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/45b27600eaee4e9489b9178d75226b62, skipping
+2016-05-03 01:57:12,979 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[dcfb9ea5-f330-4349-93f3-64c53f85a232] succeeded in 0.0270225179993s: None
+2016-05-03 01:57:14,186 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[e35a7390-aea7-441b-8508-9ae7a7206890]
+2016-05-03 01:57:14,213 WARNING 23523 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/45b27600eaee4e9489b9178d75226b62, skipping
+2016-05-03 01:57:14,232 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[e35a7390-aea7-441b-8508-9ae7a7206890] succeeded in 0.0443600500003s: None
+2016-05-03 01:57:15,002 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[a1ef2255-0014-4420-b1a5-45ba2b4249c4]
+2016-05-03 01:57:15,024 WARNING 23524 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/45b27600eaee4e9489b9178d75226b62, skipping
+2016-05-03 01:57:15,039 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[a1ef2255-0014-4420-b1a5-45ba2b4249c4] succeeded in 0.0355897889967s: None
+2016-05-03 01:57:29,782 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[54789426-3e47-4241-9c22-0fec46fb57b9]
+2016-05-03 01:57:29,813 WARNING 23521 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/45b27600eaee4e9489b9178d75226b62, skipping
+2016-05-03 01:57:29,848 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[54789426-3e47-4241-9c22-0fec46fb57b9] succeeded in 0.0634289989976s: None
+2016-05-03 01:57:30,854 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[cd556dde-140e-4a5e-a842-eb070c4ff353]
+2016-05-03 01:57:30,872 WARNING 23520 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/45b27600eaee4e9489b9178d75226b62, skipping
+2016-05-03 01:57:30,886 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[cd556dde-140e-4a5e-a842-eb070c4ff353] succeeded in 0.0297205749957s: None
+2016-05-03 01:57:31,692 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[473528f5-27c9-44b4-babb-459950d07b5c]
+2016-05-03 01:57:31,709 WARNING 23523 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/45b27600eaee4e9489b9178d75226b62, skipping
+2016-05-03 01:57:31,720 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[473528f5-27c9-44b4-babb-459950d07b5c] succeeded in 0.0264890809922s: None
+2016-05-03 01:57:32,415 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[beb4d0bc-1c7b-43c5-b0ed-cfd26b7975ae]
+2016-05-03 01:57:32,433 WARNING 23524 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/45b27600eaee4e9489b9178d75226b62, skipping
+2016-05-03 01:57:32,448 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[beb4d0bc-1c7b-43c5-b0ed-cfd26b7975ae] succeeded in 0.0308190790092s: None
+2016-05-03 01:57:33,487 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[ee115505-6a18-4c79-a40c-285d8f90d44c]
+2016-05-03 01:57:33,510 WARNING 23521 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/45b27600eaee4e9489b9178d75226b62, skipping
+2016-05-03 01:57:33,523 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[ee115505-6a18-4c79-a40c-285d8f90d44c] succeeded in 0.034459706003s: None
+2016-05-03 01:57:34,049 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[83ae5778-6f12-4684-bf4b-bd0ec29c62bb]
+2016-05-03 01:57:34,069 WARNING 23520 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/45b27600eaee4e9489b9178d75226b62, skipping
+2016-05-03 01:57:34,082 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[83ae5778-6f12-4684-bf4b-bd0ec29c62bb] succeeded in 0.0305313709978s: None
+2016-05-03 01:57:34,718 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[0f8e3fe1-a528-4c07-a054-14cbb651b155]
+2016-05-03 01:57:34,737 WARNING 23523 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/45b27600eaee4e9489b9178d75226b62, skipping
+2016-05-03 01:57:34,749 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[0f8e3fe1-a528-4c07-a054-14cbb651b155] succeeded in 0.0291798580001s: None
+2016-05-03 01:57:35,522 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[953353df-57f5-4b7a-8f91-5de0186d805c]
+2016-05-03 01:57:35,538 WARNING 23524 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/45b27600eaee4e9489b9178d75226b62, skipping
+2016-05-03 01:57:35,550 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[953353df-57f5-4b7a-8f91-5de0186d805c] succeeded in 0.0257107679936s: None
+2016-05-03 01:57:36,541 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[24990a6d-c81c-4623-b29a-733fdf6a05e3]
+2016-05-03 01:57:36,558 WARNING 23521 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/45b27600eaee4e9489b9178d75226b62, skipping
+2016-05-03 01:57:36,571 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[24990a6d-c81c-4623-b29a-733fdf6a05e3] succeeded in 0.028288630012s: None
+2016-05-03 01:57:36,975 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[b6f63e86-ee02-4a4a-a2bf-4b90d2e58a95]
+2016-05-03 01:57:36,998 WARNING 23520 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/45b27600eaee4e9489b9178d75226b62, skipping
+2016-05-03 01:57:37,015 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[b6f63e86-ee02-4a4a-a2bf-4b90d2e58a95] succeeded in 0.037550418012s: None
+2016-05-03 02:02:28,169 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[120ec2a3-7d57-42b7-b4ca-28d3c42e9256]
+2016-05-03 02:02:28,194 WARNING 23523 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/45b27600eaee4e9489b9178d75226b62, skipping
+2016-05-03 02:02:28,207 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[120ec2a3-7d57-42b7-b4ca-28d3c42e9256] succeeded in 0.0352552060067s: None
+2016-05-03 02:02:34,854 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[b9c865e4-0f05-49a7-b1c4-58cd54d1ae4b]
+2016-05-03 02:02:34,874 WARNING 23524 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/45b27600eaee4e9489b9178d75226b62, skipping
+2016-05-03 02:02:34,884 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[b9c865e4-0f05-49a7-b1c4-58cd54d1ae4b] succeeded in 0.027722740997s: None
+2016-05-03 02:02:35,126 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[77eb2d5d-5305-4d27-9856-35ec4ba22d9a]
+2016-05-03 02:02:35,145 WARNING 23521 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/45b27600eaee4e9489b9178d75226b62, skipping
+2016-05-03 02:02:35,166 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[77eb2d5d-5305-4d27-9856-35ec4ba22d9a] succeeded in 0.0373461709969s: None
+2016-05-03 02:02:39,634 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[88a648b1-3106-412d-b8dc-8889f9139abe]
+2016-05-03 02:02:39,650 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[aa249278-ee59-43e6-aefe-5bd2aeebcfeb]
+2016-05-03 02:02:39,682 WARNING 23520 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/45b27600eaee4e9489b9178d75226b62, skipping
+2016-05-03 02:02:39,687 WARNING 23523 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/45b27600eaee4e9489b9178d75226b62, skipping
+2016-05-03 02:02:39,696 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[88a648b1-3106-412d-b8dc-8889f9139abe] succeeded in 0.0600841809937s: None
+2016-05-03 02:02:39,703 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[aa249278-ee59-43e6-aefe-5bd2aeebcfeb] succeeded in 0.050695760001s: None
+2016-05-03 02:02:43,942 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[92c284ec-0c17-418d-b2a2-d1a04a8ab53b]
+2016-05-03 02:02:43,967 WARNING 23524 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/45b27600eaee4e9489b9178d75226b62, skipping
+2016-05-03 02:02:43,979 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[92c284ec-0c17-418d-b2a2-d1a04a8ab53b] succeeded in 0.0352856480022s: None
+2016-05-03 02:02:47,679 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[9d74607b-6d1f-4cf2-be54-c48c2d0a26d1]
+2016-05-03 02:02:47,699 WARNING 23521 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/45b27600eaee4e9489b9178d75226b62, skipping
+2016-05-03 02:02:47,709 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[9d74607b-6d1f-4cf2-be54-c48c2d0a26d1] succeeded in 0.0290232279949s: None
+2016-05-03 02:02:47,947 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[9974569a-a2f9-47d9-a357-2e2b7cffcdee]
+2016-05-03 02:02:47,979 WARNING 23520 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/45b27600eaee4e9489b9178d75226b62, skipping
+2016-05-03 02:02:47,995 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[9974569a-a2f9-47d9-a357-2e2b7cffcdee] succeeded in 0.0459316049964s: None
+2016-05-03 02:02:52,258 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[94fdfccf-d8f7-4bad-970c-e7afa12f9db9]
+2016-05-03 02:02:52,277 WARNING 23523 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/45b27600eaee4e9489b9178d75226b62, skipping
+2016-05-03 02:02:52,288 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[94fdfccf-d8f7-4bad-970c-e7afa12f9db9] succeeded in 0.028594161995s: None
+2016-05-03 02:02:55,848 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[205f53a8-54c4-41b4-93f2-07e67e936368]
+2016-05-03 02:02:55,867 WARNING 23524 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/45b27600eaee4e9489b9178d75226b62, skipping
+2016-05-03 02:02:55,882 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[205f53a8-54c4-41b4-93f2-07e67e936368] succeeded in 0.0324462909921s: None
+2016-05-03 02:02:56,161 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[a4a5a14e-94df-4324-b3d8-7fb7b3b2dc11]
+2016-05-03 02:02:56,186 WARNING 23521 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/45b27600eaee4e9489b9178d75226b62, skipping
+2016-05-03 02:02:56,196 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[a4a5a14e-94df-4324-b3d8-7fb7b3b2dc11] succeeded in 0.0339520280104s: None
+2016-05-03 02:02:57,670 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[67fb1b89-29a1-4bd5-a225-47fd74e2304c]
+2016-05-03 02:02:57,691 WARNING 23520 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/45b27600eaee4e9489b9178d75226b62, skipping
+2016-05-03 02:02:57,700 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[67fb1b89-29a1-4bd5-a225-47fd74e2304c] succeeded in 0.0291470179945s: None
+2016-05-03 02:03:01,278 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[e54395ba-0883-4c5a-b62b-782c33e1fb29]
+2016-05-03 02:03:01,299 WARNING 23523 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/45b27600eaee4e9489b9178d75226b62, skipping
+2016-05-03 02:03:01,309 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[e54395ba-0883-4c5a-b62b-782c33e1fb29] succeeded in 0.0291866589978s: None
+2016-05-03 02:03:01,598 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[e41b739d-7a4a-4c4f-b851-a8dd8143cebd]
+2016-05-03 02:03:01,619 WARNING 23524 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/45b27600eaee4e9489b9178d75226b62, skipping
+2016-05-03 02:03:01,629 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[e41b739d-7a4a-4c4f-b851-a8dd8143cebd] succeeded in 0.029346714s: None
+2016-05-03 02:03:03,063 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[e1765680-5cb9-4e88-9226-5cc6a5600be6]
+2016-05-03 02:03:03,085 WARNING 23521 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/45b27600eaee4e9489b9178d75226b62, skipping
+2016-05-03 02:03:03,101 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[e1765680-5cb9-4e88-9226-5cc6a5600be6] succeeded in 0.0364578370063s: None
+2016-05-03 02:03:08,259 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[75cc6c76-6307-4e5c-aa31-947f62e7421d]
+2016-05-03 02:03:08,272 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[bb9735f7-4f13-4c52-8380-80fe5020ad78]
+2016-05-03 02:03:08,310 WARNING 23520 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/45b27600eaee4e9489b9178d75226b62, skipping
+2016-05-03 02:03:08,312 WARNING 23523 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/45b27600eaee4e9489b9178d75226b62, skipping
+2016-05-03 02:03:08,322 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[75cc6c76-6307-4e5c-aa31-947f62e7421d] succeeded in 0.0616135309974s: None
+2016-05-03 02:03:08,329 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[bb9735f7-4f13-4c52-8380-80fe5020ad78] succeeded in 0.0549911010021s: None
+2016-05-03 02:17:03,998 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[e831f2ab-54cd-4a62-8d2b-0bc7044ca4ce]
+2016-05-03 02:17:04,022 WARNING 23524 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/45b27600eaee4e9489b9178d75226b62, skipping
+2016-05-03 02:17:04,033 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[e831f2ab-54cd-4a62-8d2b-0bc7044ca4ce] succeeded in 0.0326336730068s: None
+2016-05-03 02:17:39,326 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[10ae4e65-63c6-4be7-9b23-bbbcf23d03d7]
+2016-05-03 02:17:39,348 WARNING 23521 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/45b27600eaee4e9489b9178d75226b62, skipping
+2016-05-03 02:17:39,358 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[10ae4e65-63c6-4be7-9b23-bbbcf23d03d7] succeeded in 0.030005476001s: None
+2016-05-03 02:57:50,258 INFO 23101 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[610dfd71-64e7-4faa-bc81-ad183032b4c4]
+2016-05-03 02:57:50,296 INFO 23101 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[610dfd71-64e7-4faa-bc81-ad183032b4c4] succeeded in 0.0356647150038s: None
+/opt/bitnami/apps/edx/edx-platform/bin/python.edxapp: line 7: 23101 Killed                  python $@

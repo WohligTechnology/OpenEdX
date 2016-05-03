@@ -1,0 +1,168 @@
+/home/bitrock/megastack/ruby/bin/ruby extconf.rb
+checking for random()... yes
+checking for srandom()... yes
+checking for rand()... yes
+checking for srand()... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling resource.c
+In file included from resource.c:16:0:
+resource.c: In function ‘___mkd_initmmiot’:
+cstring.h:21:26: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ #define CREATE(x) T(x) = (void*)(S(x) = (x).alloc = 0)
+                          ^
+resource.c:92:2: note: in expansion of macro ‘CREATE’
+  CREATE(f->in);
+  ^
+cstring.h:21:26: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ #define CREATE(x) T(x) = (void*)(S(x) = (x).alloc = 0)
+                          ^
+resource.c:93:2: note: in expansion of macro ‘CREATE’
+  CREATE(f->out);
+  ^
+cstring.h:21:26: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ #define CREATE(x) T(x) = (void*)(S(x) = (x).alloc = 0)
+                          ^
+resource.c:94:2: note: in expansion of macro ‘CREATE’
+  CREATE(f->Q);
+  ^
+cstring.h:21:26: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ #define CREATE(x) T(x) = (void*)(S(x) = (x).alloc = 0)
+                          ^
+resource.c:99:6: note: in expansion of macro ‘CREATE’
+      CREATE(*f->footnotes);
+      ^
+compiling toc.c
+In file included from toc.c:13:0:
+toc.c: In function ‘mkd_toc’:
+cstring.h:21:26: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ #define CREATE(x) T(x) = (void*)(S(x) = (x).alloc = 0)
+                          ^
+toc.c:26:5: note: in expansion of macro ‘CREATE’
+     CREATE(res);
+     ^
+toc.c:53:70: warning: passing argument 3 of ‘mkd_string_to_anchor’ from incompatible pointer type
+       mkd_string_to_anchor(T(srcp->text->text), S(srcp->text->text), Csputc, &res);
+                                                                      ^
+In file included from toc.c:14:0:
+markdown.h:135:13: note: expected ‘void (*)(int,  void *)’ but argument is of type ‘void (*)(int,  struct Cstring *)’
+ extern void mkd_string_to_anchor(char*,int, void(*)(int,void*), void*);
+             ^
+compiling Csio.c
+compiling generate.c
+In file included from generate.c:16:0:
+generate.c: In function ‘linkylinky’:
+cstring.h:21:26: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ #define CREATE(x) T(x) = (void*)(S(x) = (x).alloc = 0)
+                          ^
+generate.c:578:5: note: in expansion of macro ‘CREATE’
+     CREATE(name);
+     ^
+generate.c: In function ‘printheader’:
+generate.c:1235:61: warning: passing argument 3 of ‘mkd_string_to_anchor’ from incompatible pointer type
+  mkd_string_to_anchor(T(pp->text->text), S(pp->text->text), Qchar, f);
+                                                             ^
+In file included from generate.c:17:0:
+markdown.h:135:13: note: expected ‘void (*)(int,  void *)’ but argument is of type ‘void (*)(int,  struct MMIOT *)’
+ extern void mkd_string_to_anchor(char*,int, void(*)(int,void*), void*);
+             ^
+In file included from generate.c:16:0:
+generate.c: In function ‘printtable’:
+cstring.h:21:26: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ #define CREATE(x) T(x) = (void*)(S(x) = (x).alloc = 0)
+                          ^
+generate.c:1306:5: note: in expansion of macro ‘CREATE’
+     CREATE(align);
+     ^
+compiling basename.c
+compiling tags.c
+compiling xml.c
+In file included from xml.c:16:0:
+xml.c: In function ‘mkd_xml’:
+cstring.h:21:26: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ #define CREATE(x) T(x) = (void*)(S(x) = (x).alloc = 0)
+                          ^
+xml.c:67:5: note: in expansion of macro ‘CREATE’
+     CREATE(f);
+     ^
+compiling html5.c
+compiling dumptree.c
+In file included from markdown.h:4:0,
+                 from dumptree.c:8:
+dumptree.c: In function ‘mkd_dump’:
+cstring.h:21:26: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ #define CREATE(x) T(x) = (void*)(S(x) = (x).alloc = 0)
+                          ^
+dumptree.c:143:2: note: in expansion of macro ‘CREATE’
+  CREATE(stack);
+  ^
+compiling mkdio.c
+In file included from mkdio.c:13:0:
+mkdio.c: In function ‘queue’:
+cstring.h:21:26: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ #define CREATE(x) T(x) = (void*)(S(x) = (x).alloc = 0)
+                          ^
+mkdio.c:48:5: note: in expansion of macro ‘CREATE’
+     CREATE(p->text);
+     ^
+mkdio.c: In function ‘populate’:
+cstring.h:21:26: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ #define CREATE(x) T(x) = (void*)(S(x) = (x).alloc = 0)
+                          ^
+mkdio.c:103:5: note: in expansion of macro ‘CREATE’
+     CREATE(line);
+     ^
+compiling emmatch.c
+compiling docheader.c
+compiling css.c
+In file included from css.c:16:0:
+css.c: In function ‘mkd_css’:
+cstring.h:21:26: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ #define CREATE(x) T(x) = (void*)(S(x) = (x).alloc = 0)
+                          ^
+css.c:49:2: note: in expansion of macro ‘CREATE’
+  CREATE(f);
+  ^
+compiling markdown.c
+In file included from markdown.c:16:0:
+markdown.c: In function ‘addfootnote’:
+cstring.h:21:26: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ #define CREATE(x) T(x) = (void*)(S(x) = (x).alloc = 0)
+                          ^
+markdown.c:838:5: note: in expansion of macro ‘CREATE’
+     CREATE(foot->tag);
+     ^
+cstring.h:21:26: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ #define CREATE(x) T(x) = (void*)(S(x) = (x).alloc = 0)
+                          ^
+markdown.c:839:5: note: in expansion of macro ‘CREATE’
+     CREATE(foot->link);
+     ^
+cstring.h:21:26: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ #define CREATE(x) T(x) = (void*)(S(x) = (x).alloc = 0)
+                          ^
+markdown.c:840:5: note: in expansion of macro ‘CREATE’
+     CREATE(foot->title);
+     ^
+markdown.c: In function ‘mkd_compile’:
+cstring.h:21:26: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ #define CREATE(x) T(x) = (void*)(S(x) = (x).alloc = 0)
+                          ^
+markdown.c:1089:5: note: in expansion of macro ‘CREATE’
+     CREATE(doc->ctx->in);
+     ^
+cstring.h:21:26: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ #define CREATE(x) T(x) = (void*)(S(x) = (x).alloc = 0)
+                          ^
+markdown.c:1091:5: note: in expansion of macro ‘CREATE’
+     CREATE(*doc->ctx->footnotes);
+     ^
+compiling rdiscount.c
+linking shared-object rdiscount.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 rdiscount.so ./.gem.20160114-113721-32yhc7
+installing default rdiscount libraries

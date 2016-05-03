@@ -1,0 +1,18 @@
+/home/bitrock/megastack/ruby/bin/ruby extconf.rb
+checking for asprintf()... yes
+checking for ruby/st.h... yes
+checking for ruby/regex.h... yes
+checking for ruby/encoding.h... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling cbson.c
+compiling encoding_helpers.c
+compiling bson_buffer.c
+linking shared-object bson_ext/cbson.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cbson.so ./.gem.20160114-113721-8h168a/bson_ext
+installing default cbson libraries

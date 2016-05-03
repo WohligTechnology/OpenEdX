@@ -1,0 +1,72 @@
+development:
+  sessions:
+    default:
+      database: cs_comments_service_development
+      hosts:
+        - localhost:27017
+test:
+  sessions:
+    default:
+      database: cs_comments_service_test
+      hosts:
+        - localhost:27017
+
+common: &default_session
+  uri: <%= ENV['MONGOHQ_URL'] %>
+  options:
+    skip_version_check: true
+    safe: true
+    consistency: strong
+    max_retries: <%= ENV['MONGOID_MAX_RETRIES'] || 1 %>
+    retry_interval: <%= ENV['MONGOID_RETRY_INTERVAL'] || 0 %>
+    timeout: <%= ENV['MONGOID_TIMEOUT'] || 0.5 %>
+    ssl: <%= ENV['MONGOID_USE_SSL'] || false %>
+
+production:
+  sessions:
+    default:
+      database: bitnami_cs_comments_service
+      username: bn_edx
+      password: "b405737a708a"
+      hosts:
+        - localhost:27017
+
+edgeprod:
+  sessions:
+    default:
+      database: bitnami_cs_comments_service
+      username: bn_edx
+      password: "b405737a708a"
+      hosts:
+        - localhost:27017
+
+edgestage:
+  sessions:
+    default:
+      database: bitnami_cs_comments_service
+      username: bn_edx
+      password: "b405737a708a"
+      hosts:
+        - localhost:27017
+
+staging:
+  sessions:
+    default:
+      database: bitnami_cs_comments_service
+      username: bn_edx
+      password: "b405737a708a"
+      hosts:
+        - localhost:27017
+
+loadtest:
+  sessions:
+    default:
+      database: bitnami_cs_comments_service
+      username: bn_edx
+      password: "b405737a708a"
+      hosts:
+        - localhost:27017
+
+defaults: &defaults
+  use_utc: false
+  use_activesupport_time_zone: true

@@ -1,0 +1,28 @@
+/home/bitrock/megastack/ruby/bin/ruby extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling yajl_ext.c
+yajl_ext.c: In function ‘yajl_encode_part’:
+yajl_ext.c:117:21: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+     yajl_gen_status status;
+                     ^
+yajl_ext.c: In function ‘rb_yajl_parser_parse’:
+yajl_ext.c:442:17: warning: variable ‘stat’ set but not used [-Wunused-but-set-variable]
+     yajl_status stat;
+                 ^
+compiling yajl_version.c
+compiling yajl_buf.c
+compiling yajl_encode.c
+compiling yajl_parser.c
+compiling yajl_gen.c
+compiling yajl.c
+compiling yajl_alloc.c
+compiling yajl_lex.c
+linking shared-object yajl/yajl.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 yajl.so ./.gem.20160114-113721-og7ekg/yajl
+installing default yajl libraries
