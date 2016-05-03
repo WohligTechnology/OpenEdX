@@ -1,5 +1,5 @@
-2016-05-02 08:03:37,370 INFO 23085 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
-2016-05-02 08:03:47,917 WARNING 23085 [celery.redirected] log.py:282 - /opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+2016-05-03 05:46:52,033 INFO 28358 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2016-05-03 05:47:03,077 WARNING 28358 [celery.redirected] log.py:282 - /opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
 Starting from version 3.2 Celery will refuse to accept pickle by default.
 
 The pickle serializer is a security concern as it may give attackers
@@ -18,8 +18,7 @@ You must only enable the serializers that you will actually use.
 
 
   warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
-2016-05-02 08:03:48,106 INFO 23085 [celery.worker.consumer] consumer.py:479 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
-2016-05-02 08:03:48,148 INFO 23085 [celery.worker.consumer] consumer.py:567 - mingle: searching for neighbors
-2016-05-02 08:03:49,180 INFO 23085 [celery.worker.consumer] consumer.py:585 - mingle: all alone
-2016-05-02 08:03:49,238 WARNING 23085 [celery.redirected] log.py:282 - celery@edx.cms.core.low.edx-1-vm ready.
-/opt/bitnami/apps/edx/edx-platform/bin/python.edxapp: line 7: 23085 Killed                  python $@
+2016-05-03 05:47:03,271 INFO 28358 [celery.worker.consumer] consumer.py:479 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2016-05-03 05:47:03,329 INFO 28358 [celery.worker.consumer] consumer.py:567 - mingle: searching for neighbors
+2016-05-03 05:47:04,385 INFO 28358 [celery.worker.consumer] consumer.py:585 - mingle: all alone
+2016-05-03 05:47:04,514 WARNING 28358 [celery.redirected] log.py:282 - celery@edx.cms.core.low.edx-1-vm ready.

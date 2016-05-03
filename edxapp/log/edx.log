@@ -3359,3 +3359,609 @@ You must only enable the serializers that you will actually use.
 2016-05-03 04:36:35,585 WARNING 23249 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
 2016-05-03 04:36:35,585 WARNING 23249 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
 2016-05-03 04:36:35,585 WARNING 23249 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 05:46:51,707 INFO 28294 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2016-05-03 05:46:51,734 INFO 28310 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2016-05-03 05:46:51,830 INFO 28326 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2016-05-03 05:46:51,888 INFO 28340 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2016-05-03 05:46:52,008 INFO 28372 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2016-05-03 05:46:52,033 INFO 28358 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2016-05-03 05:46:52,173 INFO 28383 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2016-05-03 05:47:02,664 WARNING 28294 [celery.redirected] log.py:282 - /opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+2016-05-03 05:47:02,672 WARNING 28310 [celery.redirected] log.py:282 - /opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+2016-05-03 05:47:02,678 WARNING 28326 [celery.redirected] log.py:282 - /opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+2016-05-03 05:47:02,874 INFO 28294 [celery.worker.consumer] consumer.py:479 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2016-05-03 05:47:02,829 WARNING 28340 [celery.redirected] log.py:282 - /opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+2016-05-03 05:47:02,924 WARNING 28372 [celery.redirected] log.py:282 - /opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+2016-05-03 05:47:02,961 INFO 28310 [celery.worker.consumer] consumer.py:479 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2016-05-03 05:47:02,976 INFO 28326 [celery.worker.consumer] consumer.py:479 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2016-05-03 05:47:03,030 INFO 28294 [celery.worker.consumer] consumer.py:567 - mingle: searching for neighbors
+2016-05-03 05:47:03,077 WARNING 28358 [celery.redirected] log.py:282 - /opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+2016-05-03 05:47:03,115 INFO 28340 [celery.worker.consumer] consumer.py:479 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2016-05-03 05:47:03,195 INFO 28310 [celery.worker.consumer] consumer.py:567 - mingle: searching for neighbors
+2016-05-03 05:47:03,220 WARNING 28383 [celery.redirected] log.py:282 - /opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+2016-05-03 05:47:03,238 INFO 28326 [celery.worker.consumer] consumer.py:567 - mingle: searching for neighbors
+2016-05-03 05:47:03,239 INFO 28372 [celery.worker.consumer] consumer.py:479 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2016-05-03 05:47:03,262 INFO 28340 [celery.worker.consumer] consumer.py:567 - mingle: searching for neighbors
+2016-05-03 05:47:03,271 INFO 28358 [celery.worker.consumer] consumer.py:479 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2016-05-03 05:47:03,308 INFO 28372 [celery.worker.consumer] consumer.py:567 - mingle: searching for neighbors
+2016-05-03 05:47:03,311 INFO 28383 [celery.worker.consumer] consumer.py:479 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2016-05-03 05:47:03,329 INFO 28358 [celery.worker.consumer] consumer.py:567 - mingle: searching for neighbors
+2016-05-03 05:47:03,341 INFO 28383 [celery.worker.consumer] consumer.py:567 - mingle: searching for neighbors
+2016-05-03 05:47:04,215 INFO 28294 [celery.worker.consumer] consumer.py:585 - mingle: all alone
+2016-05-03 05:47:04,235 WARNING 28294 [celery.redirected] log.py:282 - celery@edx.lms.core.low.edx-1-vm ready.
+2016-05-03 05:47:04,341 INFO 28310 [celery.worker.consumer] consumer.py:585 - mingle: all alone
+2016-05-03 05:47:04,353 INFO 28326 [celery.worker.consumer] consumer.py:585 - mingle: all alone
+2016-05-03 05:47:04,369 INFO 28340 [celery.worker.consumer] consumer.py:585 - mingle: all alone
+2016-05-03 05:47:04,371 INFO 28372 [celery.worker.consumer] consumer.py:585 - mingle: all alone
+2016-05-03 05:47:04,385 INFO 28358 [celery.worker.consumer] consumer.py:585 - mingle: all alone
+2016-05-03 05:47:04,390 INFO 28383 [celery.worker.consumer] consumer.py:585 - mingle: all alone
+2016-05-03 05:47:04,433 WARNING 28310 [celery.redirected] log.py:282 - celery@edx.lms.core.default.edx-1-vm ready.
+2016-05-03 05:47:04,477 WARNING 28326 [celery.redirected] log.py:282 - celery@edx.lms.core.high.edx-1-vm ready.
+2016-05-03 05:47:04,485 WARNING 28340 [celery.redirected] log.py:282 - celery@edx.lms.core.high_mem.edx-1-vm ready.
+2016-05-03 05:47:04,499 WARNING 28372 [celery.redirected] log.py:282 - celery@edx.cms.core.default.edx-1-vm ready.
+2016-05-03 05:47:04,514 WARNING 28358 [celery.redirected] log.py:282 - celery@edx.cms.core.low.edx-1-vm ready.
+2016-05-03 05:47:04,521 WARNING 28383 [celery.redirected] log.py:282 - celery@edx.cms.core.high.edx-1-vm ready.
+2016-05-03 05:49:50,232 INFO 28727 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2016-05-03 05:49:52,374 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 05:49:52,375 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 05:49:52,375 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 05:49:52,375 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 05:49:52,375 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 05:49:52,375 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 05:49:54,365 INFO 28726 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2016-05-03 05:53:44,257 INFO 28729 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2016-05-03 05:53:45,404 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ROOT
+2016-05-03 05:53:45,404 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS
+2016-05-03 05:53:45,404 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: PRIVACY
+2016-05-03 05:53:48,263 INFO 28728 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2016-05-03 05:54:00,856 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ROOT
+2016-05-03 05:54:00,856 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS
+2016-05-03 05:54:00,856 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: PRIVACY
+2016-05-03 05:54:06,965 INFO 28729 [audit] models.py:1580 - Login success - user (jay@wohlig.com)
+2016-05-03 05:54:08,148 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ROOT
+2016-05-03 05:54:08,148 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS
+2016-05-03 05:54:08,148 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: PRIVACY
+2016-05-03 06:06:49,931 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 06:06:49,931 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 06:06:49,931 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 06:06:49,931 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 06:06:49,932 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 06:06:49,932 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 06:06:56,940 WARNING 28728 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ROOT
+2016-05-03 06:06:56,940 WARNING 28728 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS
+2016-05-03 06:06:56,940 WARNING 28728 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: PRIVACY
+2016-05-03 06:07:09,722 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 06:07:09,723 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 06:07:09,723 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 06:07:09,723 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 06:07:09,723 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 06:07:09,723 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 06:07:12,880 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 06:07:12,881 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 06:07:12,881 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 06:07:12,881 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 06:07:12,881 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 06:07:12,882 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 06:07:19,425 WARNING 28728 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ROOT
+2016-05-03 06:07:19,425 WARNING 28728 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS
+2016-05-03 06:07:19,425 WARNING 28728 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: PRIVACY
+2016-05-03 06:07:35,261 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ROOT
+2016-05-03 06:07:35,261 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS
+2016-05-03 06:07:35,262 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: PRIVACY
+2016-05-03 06:08:04,675 INFO 28372 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[9440393a-6e3f-4650-852e-e0f4ead130df]
+2016-05-03 06:08:04,693 INFO 28729 [xmodule.modulestore.django] django.py:108 - Sent course_published signal to <function listen_for_course_publish at 0x7fbb493cd140> with kwargs {'course_key': CourseLocator(u'ISeB', u'ISEB001', u'2016_T2', None, None)}. Response was: None
+2016-05-03 06:08:04,694 INFO 28729 [xmodule.modulestore.django] django.py:108 - Sent course_published signal to <function listen_for_course_publish at 0x7fbb493cd230> with kwargs {'course_key': CourseLocator(u'ISeB', u'ISEB001', u'2016_T2', None, None)}. Response was: None
+2016-05-03 06:08:04,694 INFO 28729 [xmodule.modulestore.django] django.py:108 - Sent course_published signal to <function _listen_for_course_publish at 0x7fbb493e7d70> with kwargs {'course_key': CourseLocator(u'ISeB', u'ISEB001', u'2016_T2', None, None)}. Response was: None
+2016-05-03 06:08:04,694 INFO 28729 [xmodule.modulestore.django] django.py:108 - Sent course_published signal to <function listen_for_course_publish at 0x7fbb51c0c938> with kwargs {'course_key': CourseLocator(u'ISeB', u'ISEB001', u'2016_T2', None, None)}. Response was: None
+2016-05-03 06:08:05,379 WARNING 28945 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/a4ce8ca030404b5197b65402fe76819f, skipping
+2016-05-03 06:08:05,397 INFO 28372 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[9440393a-6e3f-4650-852e-e0f4ead130df] succeeded in 0.718534922009s: None
+2016-05-03 06:08:12,850 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ROOT
+2016-05-03 06:08:12,851 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS
+2016-05-03 06:08:12,851 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: PRIVACY
+2016-05-03 06:09:15,512 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ROOT
+2016-05-03 06:09:15,512 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS
+2016-05-03 06:09:15,512 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: PRIVACY
+2016-05-03 06:09:17,659 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ROOT
+2016-05-03 06:09:17,659 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS
+2016-05-03 06:09:17,660 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: PRIVACY
+2016-05-03 06:09:25,104 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ROOT
+2016-05-03 06:09:25,104 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS
+2016-05-03 06:09:25,104 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: PRIVACY
+2016-05-03 06:09:35,267 WARNING 28728 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ROOT
+2016-05-03 06:09:35,267 WARNING 28728 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS
+2016-05-03 06:09:35,267 WARNING 28728 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: PRIVACY
+2016-05-03 06:14:42,233 WARNING 28728 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ROOT
+2016-05-03 06:14:42,233 WARNING 28728 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS
+2016-05-03 06:14:42,234 WARNING 28728 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: PRIVACY
+2016-05-03 06:14:46,915 WARNING 28728 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ROOT
+2016-05-03 06:14:46,915 WARNING 28728 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS
+2016-05-03 06:14:46,916 WARNING 28728 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: PRIVACY
+2016-05-03 06:15:11,472 INFO 28372 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[0e467158-71cc-4d61-a8d7-b0a2a8758721]
+2016-05-03 06:15:11,491 INFO 28728 [xmodule.modulestore.django] django.py:108 - Sent course_published signal to <function listen_for_course_publish at 0x7fbb493cd140> with kwargs {'course_key': CourseLocator(u'ISeB', u'ISEB001', u'2016_T2', None, None)}. Response was: None
+2016-05-03 06:15:11,491 INFO 28728 [xmodule.modulestore.django] django.py:108 - Sent course_published signal to <function listen_for_course_publish at 0x7fbb493cd230> with kwargs {'course_key': CourseLocator(u'ISeB', u'ISEB001', u'2016_T2', None, None)}. Response was: None
+2016-05-03 06:15:11,491 INFO 28728 [xmodule.modulestore.django] django.py:108 - Sent course_published signal to <function _listen_for_course_publish at 0x7fbb493e7d70> with kwargs {'course_key': CourseLocator(u'ISeB', u'ISEB001', u'2016_T2', None, None)}. Response was: None
+2016-05-03 06:15:11,492 INFO 28728 [xmodule.modulestore.django] django.py:108 - Sent course_published signal to <function listen_for_course_publish at 0x7fbb51c0c938> with kwargs {'course_key': CourseLocator(u'ISeB', u'ISEB001', u'2016_T2', None, None)}. Response was: None
+2016-05-03 06:15:12,190 WARNING 28946 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://ISeB/ISEB001/vertical/a4ce8ca030404b5197b65402fe76819f, skipping
+2016-05-03 06:15:12,209 INFO 28372 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[0e467158-71cc-4d61-a8d7-b0a2a8758721] succeeded in 0.734818569996s: None
+2016-05-03 06:33:16,569 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 06:33:16,569 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 06:33:16,569 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 06:33:16,570 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 06:33:16,570 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 06:33:16,570 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 06:33:17,278 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 06:33:17,279 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 06:33:17,279 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 06:33:17,279 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 06:33:17,279 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 06:33:17,280 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 06:33:19,322 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 06:33:19,323 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 06:33:19,323 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 06:33:19,323 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 06:33:19,323 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 06:33:19,324 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 06:42:42,044 INFO 28728 [audit] models.py:1589 - Logout - user
+2016-05-03 06:42:42,610 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ROOT
+2016-05-03 06:42:42,610 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS
+2016-05-03 06:42:42,611 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: PRIVACY
+2016-05-03 06:42:47,741 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 06:42:47,741 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 06:42:47,741 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 06:42:47,742 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 06:42:47,742 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 06:42:47,742 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 06:46:52,630 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 06:46:52,631 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 06:46:52,631 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 06:46:52,631 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 06:46:52,632 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 06:46:52,632 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 06:47:18,845 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ROOT
+2016-05-03 06:47:18,846 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS
+2016-05-03 06:47:18,846 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: PRIVACY
+2016-05-03 07:03:37,135 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ROOT
+2016-05-03 07:03:37,135 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS
+2016-05-03 07:03:37,135 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: PRIVACY
+2016-05-03 07:03:39,986 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ROOT
+2016-05-03 07:03:39,987 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS
+2016-05-03 07:03:39,987 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: PRIVACY
+2016-05-03 07:03:46,989 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ROOT
+2016-05-03 07:03:46,989 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS
+2016-05-03 07:03:46,989 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: PRIVACY
+2016-05-03 07:03:54,439 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 07:03:54,439 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 07:03:54,439 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 07:03:54,439 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 07:03:54,440 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 07:03:54,440 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 07:06:59,030 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 07:06:59,030 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 07:06:59,031 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 07:06:59,031 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 07:06:59,031 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 07:06:59,031 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 07:31:55,058 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 07:31:55,059 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 07:31:55,059 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 07:31:55,059 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 07:31:55,060 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 07:31:55,060 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 07:46:01,113 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 07:46:01,114 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 07:46:01,114 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 07:46:01,114 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 07:46:01,114 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 07:46:01,115 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 07:46:25,418 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ROOT
+2016-05-03 07:46:25,419 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS
+2016-05-03 07:46:25,419 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: PRIVACY
+2016-05-03 07:46:54,146 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 07:46:54,146 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 07:46:54,146 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 07:46:54,146 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 07:46:54,147 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 07:46:54,147 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 07:49:51,698 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 07:49:51,699 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 07:49:51,699 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 07:49:51,700 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 07:49:51,700 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 07:49:51,700 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 07:50:41,468 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 07:50:41,468 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 07:50:41,468 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 07:50:41,468 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 07:50:41,469 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 07:50:41,469 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 07:51:06,655 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 07:51:06,655 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 07:51:06,655 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 07:51:06,656 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 07:51:06,656 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 07:51:06,656 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 07:51:16,766 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 07:51:16,767 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 07:51:16,767 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 07:51:16,767 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 07:51:16,768 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 07:51:16,768 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 07:51:59,972 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 07:51:59,974 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 07:51:59,974 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 07:51:59,974 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 07:51:59,974 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 07:51:59,975 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 07:59:34,142 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 07:59:34,142 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 07:59:34,142 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 07:59:34,143 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 07:59:34,143 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 07:59:34,143 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:01:21,730 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 08:01:21,731 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 08:01:21,731 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 08:01:21,731 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:01:21,731 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 08:01:21,732 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:02:35,894 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 08:02:35,895 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 08:02:35,895 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 08:02:35,895 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:02:35,895 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 08:02:35,895 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:09:36,864 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 08:09:36,865 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 08:09:36,865 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 08:09:36,865 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:09:36,865 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 08:09:36,865 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:16:57,770 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ROOT
+2016-05-03 08:16:57,771 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS
+2016-05-03 08:16:57,771 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: PRIVACY
+2016-05-03 08:16:57,958 WARNING 28728 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ROOT
+2016-05-03 08:16:57,959 WARNING 28728 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS
+2016-05-03 08:16:57,959 WARNING 28728 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: PRIVACY
+2016-05-03 08:24:43,298 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 08:24:43,298 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 08:24:43,299 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 08:24:43,299 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:24:43,299 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 08:24:43,299 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:27:01,159 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 08:27:01,160 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 08:27:01,160 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 08:27:01,160 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:27:01,160 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 08:27:01,160 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:32:23,520 ERROR 28728 [root] exceptions.py:9 - Uncaught exception from <class 'django.core.handlers.wsgi.WSGIHandler'>
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 109, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/edx/edx-platform/cms/djangoapps/contentstore/views/public.py", line 71, in howitworks
+    return render_to_response('howitworks.html', {})
+  File "/opt/bitnami/apps/edx/edx-platform/common/djangoapps/edxmako/shortcuts.py", line 147, in render_to_response
+    return HttpResponse(render_to_string(template_name, dictionary, context_instance, namespace), **kwargs)
+  File "/opt/bitnami/apps/edx/edx-platform/common/djangoapps/edxmako/shortcuts.py", line 134, in render_to_string
+    return template.render_unicode(**context_dictionary)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/template.py", line 452, in render_unicode
+    as_unicode=True)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/runtime.py", line 807, in _render
+    **_kwargs_for_callable(callable_, data))
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/runtime.py", line 838, in _render_context
+    (inherit, lclcontext) = _populate_self_namespace(context, tmpl)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/runtime.py", line 784, in _populate_self_namespace
+    ret = template.module._mako_inherit(template, context)
+  File "/tmp/mako_cms/32543321c8216dede1f8313b9a81670c/howitworks.html.py", line 34, in _mako_inherit
+    return runtime._inherit_from(context, u'base.html', _template_uri)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/runtime.py", line 743, in _inherit_from
+    template = _lookup_template(context, uri, calling_uri)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/runtime.py", line 773, in _lookup_template
+    return lookup.get_template(uri)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/lookup.py", line 237, in get_template
+    return self._check(uri, self._collection[uri])
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/lookup.py", line 331, in _check
+    return self._load(template.filename, uri)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/lookup.py", line 311, in _load
+    **self.template_args)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/template.py", line 321, in __init__
+    module = self._compile_from_file(path, filename)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/template.py", line 378, in _compile_from_file
+    self.module_writer)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/template.py", line 661, in _compile_module_file
+    generate_magic_comment=True)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/template.py", line 628, in _compile
+    node = lexer.parse()
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/lexer.py", line 238, in parse
+    if self.match_tag_start():
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/lexer.py", line 292, in match_tag_start
+    self.append_node(parsetree.Tag, keyword, attributes)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/lexer.py", line 132, in append_node
+    node = nodecls(*args, **kwargs)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/parsetree.py", line 225, in __call__
+    filename=kwargs['filename']
+CompileException: No such tag: 'link' in file '/opt/bitnami/apps/edx/edx-platform/cms/templates/base.html' at line: 36 char: 5
+2016-05-03 08:32:23,530 ERROR 28728 [django.request] base.py:213 - Internal Server Error: /
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 109, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/edx/edx-platform/cms/djangoapps/contentstore/views/public.py", line 71, in howitworks
+    return render_to_response('howitworks.html', {})
+  File "/opt/bitnami/apps/edx/edx-platform/common/djangoapps/edxmako/shortcuts.py", line 147, in render_to_response
+    return HttpResponse(render_to_string(template_name, dictionary, context_instance, namespace), **kwargs)
+  File "/opt/bitnami/apps/edx/edx-platform/common/djangoapps/edxmako/shortcuts.py", line 134, in render_to_string
+    return template.render_unicode(**context_dictionary)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/template.py", line 452, in render_unicode
+    as_unicode=True)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/runtime.py", line 807, in _render
+    **_kwargs_for_callable(callable_, data))
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/runtime.py", line 838, in _render_context
+    (inherit, lclcontext) = _populate_self_namespace(context, tmpl)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/runtime.py", line 784, in _populate_self_namespace
+    ret = template.module._mako_inherit(template, context)
+  File "/tmp/mako_cms/32543321c8216dede1f8313b9a81670c/howitworks.html.py", line 34, in _mako_inherit
+    return runtime._inherit_from(context, u'base.html', _template_uri)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/runtime.py", line 743, in _inherit_from
+    template = _lookup_template(context, uri, calling_uri)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/runtime.py", line 773, in _lookup_template
+    return lookup.get_template(uri)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/lookup.py", line 237, in get_template
+    return self._check(uri, self._collection[uri])
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/lookup.py", line 331, in _check
+    return self._load(template.filename, uri)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/lookup.py", line 311, in _load
+    **self.template_args)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/template.py", line 321, in __init__
+    module = self._compile_from_file(path, filename)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/template.py", line 378, in _compile_from_file
+    self.module_writer)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/template.py", line 661, in _compile_module_file
+    generate_magic_comment=True)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/template.py", line 628, in _compile
+    node = lexer.parse()
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/lexer.py", line 238, in parse
+    if self.match_tag_start():
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/lexer.py", line 292, in match_tag_start
+    self.append_node(parsetree.Tag, keyword, attributes)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/lexer.py", line 132, in append_node
+    node = nodecls(*args, **kwargs)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/mako/parsetree.py", line 225, in __call__
+    filename=kwargs['filename']
+CompileException: No such tag: 'link' in file '/opt/bitnami/apps/edx/edx-platform/cms/templates/base.html' at line: 36 char: 5
+2016-05-03 08:32:59,794 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ROOT
+2016-05-03 08:32:59,795 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS
+2016-05-03 08:32:59,795 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: PRIVACY
+2016-05-03 08:35:48,732 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 08:35:48,733 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 08:35:48,733 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 08:35:48,733 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:35:48,734 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 08:35:48,734 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:35:48,924 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 08:35:48,925 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 08:35:48,925 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 08:35:48,925 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:35:48,925 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 08:35:48,925 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:35:49,105 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 08:35:49,105 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 08:35:49,106 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 08:35:49,106 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:35:49,106 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 08:35:49,106 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:36:03,370 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ROOT
+2016-05-03 08:36:03,371 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS
+2016-05-03 08:36:03,371 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: PRIVACY
+2016-05-03 08:36:33,752 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ROOT
+2016-05-03 08:36:33,752 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS
+2016-05-03 08:36:33,753 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: PRIVACY
+2016-05-03 08:37:44,502 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ROOT
+2016-05-03 08:37:44,503 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS
+2016-05-03 08:37:44,503 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: PRIVACY
+2016-05-03 08:38:46,017 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ROOT
+2016-05-03 08:38:46,017 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS
+2016-05-03 08:38:46,017 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: PRIVACY
+2016-05-03 08:41:04,980 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 08:41:04,980 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 08:41:04,981 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 08:41:04,981 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:41:04,981 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 08:41:04,981 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:41:05,172 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 08:41:05,172 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 08:41:05,172 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 08:41:05,172 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:41:05,173 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 08:41:05,173 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:41:05,354 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 08:41:05,355 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 08:41:05,355 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 08:41:05,355 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:41:05,355 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 08:41:05,355 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:44:08,958 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ROOT
+2016-05-03 08:44:08,958 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS
+2016-05-03 08:44:08,958 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: PRIVACY
+2016-05-03 08:44:32,681 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 08:44:32,681 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 08:44:32,681 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 08:44:32,681 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:44:32,682 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 08:44:32,682 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:44:32,872 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 08:44:32,872 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 08:44:32,872 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 08:44:32,872 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:44:32,873 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 08:44:32,873 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:44:33,089 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 08:44:33,089 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 08:44:33,090 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 08:44:33,090 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:44:33,090 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 08:44:33,090 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:44:40,092 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 08:44:40,092 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 08:44:40,092 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 08:44:40,092 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:44:40,093 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 08:44:40,093 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:44:40,276 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 08:44:40,277 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 08:44:40,277 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 08:44:40,277 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:44:40,278 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 08:44:40,278 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:44:50,442 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 08:44:50,443 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 08:44:50,443 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 08:44:50,443 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:44:50,443 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 08:44:50,443 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:44:50,618 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 08:44:50,618 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 08:44:50,619 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 08:44:50,619 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:44:50,619 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 08:44:50,619 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:45:03,865 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 08:45:03,865 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 08:45:03,865 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 08:45:03,866 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:45:03,866 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 08:45:03,866 WARNING 28726 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:45:04,042 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2016-05-03 08:45:04,043 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2016-05-03 08:45:04,043 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2016-05-03 08:45:04,043 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:45:04,043 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2016-05-03 08:45:04,043 WARNING 28727 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2016-05-03 08:45:10,938 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ROOT
+2016-05-03 08:45:10,938 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS
+2016-05-03 08:45:10,938 WARNING 28729 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: PRIVACY
